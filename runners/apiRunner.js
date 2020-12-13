@@ -1,6 +1,6 @@
-const bodyParser  = require('body-parser');
-const express     = require('express');        // import express
-const app         = express();                 // define our app using express
+const bodyParser = require('body-parser');
+const express = require('express');        // import express
+const app = express();                 // define our app using express
 const {
     common,
     other,

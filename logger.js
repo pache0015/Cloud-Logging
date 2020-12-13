@@ -15,8 +15,8 @@ const logger = createLogger({
     new transports.File({ filename: `${__dirname}/logs/unqfy-errors.log`, level: "error" }),
     new transports.File({ filename: `${__dirname}/logs/unqfy-combined.log`, level: "debug" }),
     new Loggly({
-      token: "2da4987c-7157-44d1-b950-af69ca36c68f",
-      subdomain: "fedecame",
+      token: "0528b37e-977a-44e7-99d5-2bb58d4189e7",
+      subdomain: "facundo",
       tags: ["Unqfy-Winston-NodeJS"],
       json: true
     })
